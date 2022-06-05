@@ -26,5 +26,5 @@ public class Route {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dateTime;
     @Column(name = "id_administrator")
-    private String idAdministrator;
+    private int idAdministrator;
 }

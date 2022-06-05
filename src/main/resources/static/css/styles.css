@@ -14,8 +14,13 @@ body{
 .header-btn-conteiner{
       position: absolute;
       top: 20px;
-      right: 10px;
-  }
+      right: 100px;
+ }
+ .header-btn-conteiner1{
+      position: absolute;
+      top: 20px;
+      right: 50px;
+   }
 .header div img{
      margin-left: 28%;
   }

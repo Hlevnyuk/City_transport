@@ -10,8 +10,10 @@
                 <img src="images/logo.png" alt="">
             </div>
             <div class="header-btn-conteiner">
-                <a href="/loging" class = "btn">Вхід</a>
-                <a href="/reg" class = "btn">Реєстрація</a>
+                <a href="/login" class = "btn">Вхід</a>
+            </div>
+            <div class="header-btn-conteiner1" method="post">
+                <a href="/logout" class = "btn">Вихід</a>
             </div>
         </header>
         <div class="slider">

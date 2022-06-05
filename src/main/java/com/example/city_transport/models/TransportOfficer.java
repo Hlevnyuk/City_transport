@@ -1,6 +1,4 @@
 package com.example.city_transport.models;
-
-import com.example.city_transport.composite.CompositeKey;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,9 +10,7 @@ import java.util.Date;
 @Table(name = "transport_officer")
 @AllArgsConstructor
 @NoArgsConstructor
-@IdClass(CompositeKey.class)
 public class TransportOfficer {
-    @Id
     @Column(name = "email")
     private String email;
     @Id
